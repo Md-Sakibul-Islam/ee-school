@@ -1,0 +1,65 @@
+
+:root{
+    --primary-font:"Poppins", sans-serif;
+    --secondary-font:"Roboto", sans-serif;
+    --primary-color:#000000;
+    --secondary-color:#FFFFFF;
+    --heading-color:#413960;
+    --title-color:#585859;
+    --text-color:#6C6B6B;
+    --bg-color:#F0FFF0;
+    --btn-color:#21B573;
+}
+
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 24px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* header section start  */
+
+.header{
+    background-color: var(--bg-color);
+    padding: 15px 0;
+}
+
+.menu ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 25px;
+    color: var(--primary-color);
+    transition: all 0.3s ;
+}
+
+.menu ul li a:hover{
+    color: #FD511A ;
+}
+
+.btn{
+    padding: 12px 28px;
+    border: 0;
+    background-color: var(--btn-color);
+    border-radius: 33px;
+    color: var(--secondary-color);
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn:hover, .btn:active{
+    background-color: #FD511A !important;
+    color: var(--secondary-color) !important;
+}
+/* header section end  */
