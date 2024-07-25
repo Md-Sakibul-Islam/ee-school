@@ -1,54 +1,60 @@
-
-:root{
-    --primary-font:"Poppins", sans-serif;
-    --secondary-font:"Roboto", sans-serif;
-    --primary-color:#000000;
-    --secondary-color:#FFFFFF;
-    --heading-color:#413960;
-    --title-color:#585859;
-    --text-color:#6C6B6B;
-    --bg-color:#F0FFF0;
-    --btn-color:#21B573;
+:root {
+    --primary-font: "Poppins", sans-serif;
+    --secondary-font: "Roboto", sans-serif;
+    --primary-color: #000000;
+    --secondary-color: #FFFFFF;
+    --heading-color: #413960;
+    --title-color: #585859;
+    --text-color: #6C6B6B;
+    --bg-color: #F0FFF0;
+    --btn-color: #21B573;
 }
 
-h1{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
     font-size: 48px;
 }
-h2{
+
+h2 {
     font-size: 36px;
 }
-h3{
+
+h3 {
     font-size: 24px;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: var(--primary-font);
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 /* header section start  */
 
-.header{
+.header {
     background-color: var(--bg-color);
     padding: 15px 0;
 }
 
-.menu ul li a{
+.menu ul li a {
     font-size: 16px;
     font-weight: 400;
     margin: 0 25px;
     color: var(--primary-color);
-    transition: all 0.3s ;
+    transition: all 0.3s;
 }
 
-.menu ul li a:hover{
-    color: #FD511A ;
+.menu ul li a:hover {
+    color: #FD511A;
 }
 
-.btn{
+.btn {
     padding: 12px 28px;
     border: 0;
     background-color: var(--btn-color);
@@ -58,8 +64,45 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
-.btn:hover, .btn:active{
+
+.btn:hover,
+.btn:active {
     background-color: #FD511A !important;
     color: var(--secondary-color) !important;
 }
+
 /* header section end  */
+
+/* banner section start  */
+.banner {
+    background-color: var(--bg-color);
+}
+
+.banner-question {
+    color: #FD511A;
+    line-height: normal;
+}
+
+.banner-title {
+    max-width: 405px;
+    margin: 10px 0 20px 0;
+    color: var(--primary-color);
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.banner-title span {
+    color: var(--btn-color);
+}
+
+.banner-paragraph {
+    color: var(--text-color);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+.get-started {
+    margin: 25px 0 63px 0;
+}
+/* banner section end  */
