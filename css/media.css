@@ -25,20 +25,20 @@
      }
 
      .banner-title {
-        max-width: 100%;
-        margin: 10px 0 15px 0;
-        padding: 0 138px;
-        font-size: 25px;
-        line-height: 35px;
+         max-width: 100%;
+         margin: 10px 0 15px 0;
+         padding: 0 10px;
+         font-size: 25px;
+         line-height: 35px;
      }
 
      .banner-paragraph {
-        padding: 0 13px;
-        line-height: 23px;
+         padding: 0 13px;
+         line-height: 23px;
      }
 
      .banner-img img {
-         padding: 0 50px;
+         padding: 0 20px;
          margin-bottom: 30px;
      }
 
@@ -47,12 +47,58 @@
      }
 
      /* banner section end  */
+     /* features section start  */
+     .features {
+         padding-bottom: 60px;
+     }
 
+     h3 {
+         font-size: 20px;
+     }
+
+     /* features section end  */
+     .course-card {
+         margin-top: 25px;
+         padding: 15px 15px 25px 15px;
+     }
+
+     .course-card .course-subtitle {
+         font-size: 18px;
+     }
+
+     .buy-btn {
+         margin: 15px 0 25px 0;
+     }
+
+     .course-footer .course-date span,
+     .course-seat span {
+         font-weight: 500;
+         font-size: 14px;
+     }
+
+     .course-title h2 {
+         text-align: center;
+         color: #413960;
+         font-weight: 700;
+         font-size: 30px;
+     }
+
+     .course-date img,
+     .course-seat img {
+         width: 18px;
+     }
  }
 
 
  /* small device  */
  @media (min-width: 576px) and (max-width: 767.98px) {
+     h3 {
+         font-size: 20px;
+     }
+
+     h2 {
+         font-size: 31px;
+     }
 
      /* header section start   */
      .header {
@@ -100,6 +146,25 @@
      }
 
      /* banner section end  */
+     /* features section start  */
+     .features {
+         padding-bottom: 60px;
+     }
+
+     .inner-feature {
+         margin-top: 30px;
+         padding: 50px 0 50px 0;
+         text-align: center;
+         background-color: var(--bg-color);
+         border-radius: 10px;
+         transition: 0.3s linear;
+     }
+
+     /* features section end  */
+
+     .course-card {
+         margin-top: 30px;
+     }
  }
 
  /* medium device  */
@@ -136,11 +201,51 @@
      }
 
      /* banner section end  */
+
+     /* features section start  */
+     .features {
+         padding-bottom: 80px;
+     }
+
+     /* features section end  */
+
+
+     .course-card {
+         margin: 50px 100px 0 100px;
+     }
  }
 
 
  /* large device  */
- @media (min-width: 992px) and (max-width: 1199.98px) {}
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+
+     /* course section start  */
+     .course-card {
+         margin-top: 55px;
+         padding: 20px 15px 31px 15px;
+         border-radius: 18px;
+         background: var(--secondary-color);
+         box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
+     }
+
+     .course-date img,
+     .course-seat img {
+         width: 20px;
+     }
+
+     .course-footer .course-date span,
+     .course-seat span {
+         font-weight: 400;
+         font-size: 14px;
+     }
+
+     .course-footer .course-date,
+     .course-seat {
+         gap: 4px;
+     }
+
+     /* course section end  */
+ }
 
  /* extra large device  */
  @media (min-width: 1200px) and (max-width:1399.98px) {}
