@@ -1,6 +1,6 @@
-Project Name: E-School 
-HTML
-CSS
-Bootstrap 
-Full Responsive 
+Project Name: E-School <br>
+HTML <br>
+CSS <br>
+Bootstrap <br>
+Full Responsive <br>
 project link: https://md-sakibul-islam.github.io/ee-school/
