@@ -87,6 +87,39 @@
      .course-seat img {
          width: 18px;
      }
+
+     /* testimonial section start  */
+     .test-title h2 {
+         margin-bottom: 36px;
+     }
+
+     .test-img {
+         margin: 0 70px 20px 70px;
+     }
+
+     .test-text p {
+         text-align: center;
+     }
+
+     /* testimonial section end  */
+
+     /* footer section start  */
+     .footer-details p {
+         padding: 0;
+         text-align: center;
+     }
+
+     .footer-course,
+     .footer-terms,
+     .footer-links {
+         text-align: center;
+     }
+
+     .footer-bottom {
+         margin-top: 60px;
+     }
+
+     /* footer section end  */
  }
 
 
@@ -165,6 +198,28 @@
      .course-card {
          margin-top: 30px;
      }
+
+     /* testimonial section start  */
+     .test-img {
+         margin: 0 50px 20px 50px;
+     }
+
+     .test-text p {
+         text-align: center;
+     }
+
+     /* testimonial section end  */
+     /* footer section start  */
+     .footer-details {
+         margin-bottom: 25px;
+     }
+
+     .footer-details p {
+         padding: 0 50px;
+         text-align: center;
+     }
+
+     /* footer section end  */
  }
 
  /* medium device  */
@@ -213,6 +268,29 @@
      .course-card {
          margin: 50px 100px 0 100px;
      }
+
+     /* testimonial section start  */
+     .test-title h2 {
+         margin-bottom: 20px;
+     }
+
+     .test-img {
+         margin: 0;
+     }
+
+     /* testimonial section end  */
+
+     /* footer section start  */
+     .footer-details {
+         margin-bottom: 30px;
+     }
+
+     .footer-details p {
+         padding: 0 100px;
+         text-align: center;
+     }
+
+     /* footer section end  */
  }
 
 
@@ -245,10 +323,27 @@
      }
 
      /* course section end  */
+
+     /* footer section start  */
+
+     .footer-details p {
+         padding-right: 50px;
+     }
+
+     /* footer section end  */
+
  }
 
  /* extra large device  */
  @media (min-width: 1200px) and (max-width:1399.98px) {}
 
  /* extra extra large device  */
- @media (min-width:1400px) {}
+ @media (min-width:1400px) {
+
+     /* footer section start  */
+     .footer-details p {
+         padding-right: 130px;
+     }
+
+     /* footer section end  */
+ }

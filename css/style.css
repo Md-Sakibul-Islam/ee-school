@@ -27,6 +27,10 @@ h3 {
     font-size: 24px;
 }
 
+h4 {
+    font-size: 18px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -34,8 +38,13 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
-a{
+
+a {
     text-decoration: none;
+}
+
+li {
+    list-style: none;
 }
 
 /* header section start  */
@@ -184,17 +193,94 @@ a{
     justify-content: space-between;
     align-items: center;
 }
-.course-footer .course-date , .course-seat{
+
+.course-footer .course-date,
+.course-seat {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 6px; 
-    
+    gap: 6px;
+
 }
 
-.course-footer .course-date span , .course-seat span{
+.course-footer .course-date span,
+.course-seat span {
     font-weight: 500;
 }
 
 
 /* course section end  */
+
+/* testimonial section start  */
+.testimonial {
+    padding-bottom: 100px;
+}
+
+.test-title h2 {
+    color: var(--primary-color);
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 60px;
+}
+
+.test-img img {
+    width: 100%;
+}
+
+.test-text p {
+    color: var(--primary-color);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* testimonial section end  */
+/* footer section start  */
+.footer {
+    padding: 55px 0 27px 0;
+    background-color: #282531;
+}
+
+.footer-details p {
+    padding-right: 100px;
+    color: var(--secondary-color);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.footer-course h4,
+.footer-terms h4,
+.footer-links h4 {
+    color: var(--secondary-color);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.footer-menu {
+    padding: 0;
+}
+
+.footer-menu li a {
+    display: inline-block;
+    color: var(--secondary-color);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+.footer-bottom{
+    margin-top: 80px;
+}
+.footer-bottom p {
+    color: #CDCDCD;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.footer-bottom a {
+    color: var(--secondary-color);
+}
+
+/* footer section end  */
